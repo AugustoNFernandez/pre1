@@ -1,0 +1,37 @@
+.navbar {
+    background-color: rgb(79, 238, 185);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding-left: 50px;
+    
+    
+}
+.links {
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: crimson;
+}
+
+.carrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
